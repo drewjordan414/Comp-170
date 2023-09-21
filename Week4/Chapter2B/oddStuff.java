@@ -1,3 +1,5 @@
+package Week4.Chapter2B;
+
 public class oddStuff {
     public static void main(String[] args){
         odd();
