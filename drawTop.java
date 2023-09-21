@@ -1,7 +1,12 @@
+import java.util.Scanner;
 public class drawTop {
-    public static final int SIZE = 4;
+    public static int SIZE;  // Remove final keyword
 
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);  // Create a Scanner object
+        System.out.print("Enter the desired size: ");
+        SIZE = scanner.nextInt();  // Read user input
+        
         bars();
         upper();
         middle();
@@ -10,7 +15,7 @@ public class drawTop {
         middle();
         middle();
     }
-    
+
     public static void bars() {
         for (int i = 1; i <= SIZE; i++) {
             for (int j = 1; j <= SIZE; j++) { 
