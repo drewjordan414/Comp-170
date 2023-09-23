@@ -1,3 +1,4 @@
+package Week2;
 // housekeeping
 import java.util.Scanner;
 
@@ -13,6 +14,7 @@ public class physics {
         // time
         double t;
 
+        // scanner instance
         Scanner scanner = new Scanner(System.in);
 
         // aks user for values
@@ -30,6 +32,7 @@ public class physics {
 
         // compute s
         double s = s0 + v0*t + 0.5*a*t*t;
+        // print result
         System.out.println("The position of the body at t is: " + s + " meters");
         
     }
