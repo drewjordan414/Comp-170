@@ -1,12 +1,11 @@
 import java.util.Scanner;
 public class drawTop {
-    public static int SIZE;  // Remove final keyword
+    public static int SIZE;  
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);  // Create a Scanner object
+        Scanner scanner = new Scanner(System.in); 
         System.out.print("Enter the desired size: ");
-        SIZE = scanner.nextInt();  // Read user input
-        
+        SIZE = scanner.nextInt();  
         bars();
         upper();
         middle();
