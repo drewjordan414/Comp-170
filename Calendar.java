@@ -1,6 +1,5 @@
 public class Calendar {
     public static void main(String[] args) {
-        //array containing the months of the year
         String[] months = {
             "January", "February", "March", "April", "May", "June",
             "July", "August", "September", "October", "November", "December"
