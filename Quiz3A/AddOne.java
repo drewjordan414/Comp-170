@@ -1,3 +1,4 @@
+package Quiz3A;
 public class AddOne {
     public static void main(String[] args) {
         int count = 5;
