@@ -20,7 +20,6 @@ public class triangle {
     }
 
     public static void printTriangleType(int a, int b, int c) {
-        // Check for triangle inequality theorem
         if (a + b <= c || a + c <= b || b + c <= a) {
             System.out.println("Not a valid triangle");
             return;
