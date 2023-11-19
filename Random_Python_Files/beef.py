@@ -1,6 +1,5 @@
 #!/usr/bin/python
 # -*- coding: utf8 -*-
-
 import random 
 import string
 import argparse
