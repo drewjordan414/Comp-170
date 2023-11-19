@@ -1,0 +1,5 @@
+Personal Finance Manager
+
+Project Definition: An application to help users manage their personal finances, including tracking expenses, incomes, and budget planning. It’s compelling because it provides real-life value and helps users to be more financially responsible.
+Design: The app will require input for various financial details and will output graphical representations of data, like pie charts and bar graphs. The UI might include text fields, drop-down lists, and buttons.
+Testing: Testing will include real financial data input and ensuring the output calculations and representations are accurate.
