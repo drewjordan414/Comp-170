@@ -19,4 +19,6 @@ public class gpa {
         double average = (double) total / numScores;
         System.out.printf("%s's grade is %.2f%n", name, average);
     }
+
+    p
 }

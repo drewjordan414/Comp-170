@@ -1,0 +1,10 @@
+// this line will be ignored
+K 0
+celsius 20
+K -32.0
+x
+C missing
+F
+nothing on this line
+
+F 50
